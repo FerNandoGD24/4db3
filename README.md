@@ -19,9 +19,9 @@ tar -xzf 4db3.tar.gz
 ---
 Windows
 ---
-Para recomponer
-```bash
-copy /b 4db3pt_*.tar.gz 4db3.tar.gz
+Para recomponer (se necesita GIT)
+```Powershell
+cat 4db3pt_* > 4db3.tar.gz
 ```
 Para descomprimir
 ```
